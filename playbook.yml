@@ -1,0 +1,9 @@
+ - hosts: wordpress
+   remote_user: aluno
+   become: yes
+   roles:
+   - server
+   - php
+   - mysql
+   - wordpress
+  
